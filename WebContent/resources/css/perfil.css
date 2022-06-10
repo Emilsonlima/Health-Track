@@ -1,0 +1,70 @@
+div.perfil-parent {
+  padding: 10px 0;
+}
+
+div.perfil-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div .perfil {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1300px;
+  padding: 40px 20px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+
+div .perfil-img {
+  width: 40%;
+}
+
+div .perfil-form {
+  width: 100%;
+}
+
+div .perfil-form label {
+  font-size: 14px;
+  color: #727272;
+}
+
+div .perfil-form input,
+div .perfil-form select {
+  font-size: 14px;
+  color: #727272;
+}
+
+div.perfil-form .custom-file {
+  margin-top: 10px;
+}
+
+div .perfil-form button {
+  margin-top: 10px;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: #fff;
+  border: none;
+}
+
+div .perfil-form button:hover {
+  border: none;
+  color: #fff;
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+div .img {
+  height: 500px;
+  width: 400px;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+  background-image: url('/images/3x4.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #a777e3;
+  border-radius: 5px;
+}
